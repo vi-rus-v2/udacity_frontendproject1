@@ -1,0 +1,15 @@
+img{
+    width: 100%;
+}
+figure{
+    text-align: center;
+    box-shadow: violet 5px 5px 5px 5px;
+}
+
+
+.author{
+    text-align: end;
+}
+.st{
+    font-size: 40px;
+}

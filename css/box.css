@@ -1,0 +1,39 @@
+.box{
+    height: 300px;
+    width: 200px;
+    box-shadow: rgb(189, 43, 226) 3px 3px 15px 3px;
+    background: rgb(190, 145, 233);
+    text-align: center;
+    
+    
+}
+#box1{
+    grid-area: one;
+}
+#box2{
+    grid-area: two;
+}
+#box3{
+    grid-area: three;
+}
+.box-text{
+    font-size: 25px;
+    color:rgba(226, 43, 113, 0.918);
+    padding:13px
+}
+button{
+    padding:5px;
+    border-radius: 50px;
+}
+img{
+    border-radius: 100px;
+    border:2px solid black;
+}
+.box:hover{
+    box-shadow: rgb(189, 43, 226) 6px 6px 30px 6px;
+}
+button:hover{
+    box-shadow: black 2px 2px 20px 2px;
+    background-color: black;
+    color: red;
+}

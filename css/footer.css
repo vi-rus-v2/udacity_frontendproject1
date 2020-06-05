@@ -1,0 +1,37 @@
+
+.soc-media-ul{
+    list-style:none;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: center;
+    text-align: center;
+    padding-left: 450px;
+}
+.fa-envelope{
+    color:black;
+    font-size: 25px;
+    padding: 25px;
+}
+.fa-github{
+    
+    color:black;
+    font-size: 25px;
+    padding: 25px;
+}
+.fa-linkedin{
+    
+    color:black;
+    font-size: 25px;
+    padding: 25px;
+}
+
+button{
+    text-align: left;
+    background-color:aqua;
+    border-radius: 25px;
+   
+}
+.return{
+    padding: 25px;
+}

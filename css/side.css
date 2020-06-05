@@ -1,0 +1,14 @@
+
+.box{
+    background-color:rgb(157, 255, 0);
+    height: 200px;
+    width: 100%;
+    padding-top:25px;
+    border-radius: 25px;
+    box-shadow: rgb(62, 99, 3) 3px 3px 3px 3px;
+
+}
+.sideguide{
+    text-align: left;
+    color: black;
+}

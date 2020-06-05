@@ -1,0 +1,87 @@
+@import"side.css";
+@import"body.css";
+@import"footer.css";
+.container{
+    display:grid;
+    grid-template-columns: 600px repeat(7,1fr);
+    grid-template-rows: 80px 1fr 55px;
+    grid-template-areas: 
+    "hd"
+    "sd"
+    "main"
+    "ft";
+    grid-gap: 30px 20px;
+    width: 100%;
+}
+@media(min-width:600px) and (max-width:900px){
+    .container{
+        /* Step 1: Set display to grid */
+          display:grid;
+       /* Step 2: setup rows amd columns */
+          grid-template-columns: 40px repeat(7,1fr);
+          grid-template-rows: 150px 1fr 100px;
+          grid-template-areas: 
+          "hd hd hd hd hd hd hd hd"
+          "sd sd sd main main main main main"
+          "ft ft ft ft ft ft ft ft";
+          background-color: pink;
+          grid-gap: 30px 20px;
+    }
+}
+@media(min-width:900px){
+    .container{
+        /* Step 1: Set display to grid */
+          display:grid;
+       /* Step 2: setup rows amd columns */
+          grid-template-columns: 30px repeat(7,1fr);
+          grid-template-rows: 150px 1fr 100px;
+          grid-template-areas: 
+          "hd hd hd hd hd hd hd hd"
+          "sd sd main main main main main main"
+          "ft ft ft ft ft ft ft ft";
+          background-color: pink;
+          grid-gap: 20px 10px;
+    }
+}
+header{
+    grid-area: hd;
+    border-radius: 20px;
+    text-align: center;
+    background-color:violet;
+    border: 3px solid darkviolet;
+    padding: 10px;
+    
+}
+main{
+    grid-area: main;
+    border-radius: 20px;
+    text-align: left;
+    background-color: white;
+    border : 3px solid wheat;
+    padding: 50px;
+    font-size: 25px;
+    
+}
+#sidebar{
+    grid-area: sd;
+    border-radius: 20px;
+    background-color: yellow;
+    text-align: center;
+    border: 3px solid yellowgreen;
+    padding: 10px;   
+    padding-top: 15px;
+}
+
+footer{
+    grid-area: ft;
+    border-radius: 20px;
+    background-color: rgb(224, 103, 82);
+    border: 3px rgb(245, 72, 42);
+    display: flex;
+    flex-direction: row;
+
+}
+h1{
+    font-size: 40px;
+}
+
